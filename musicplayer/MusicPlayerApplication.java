@@ -30,7 +30,7 @@ public class MusicPlayerApplication {
 		String location = add.nextLine();
 		System.out.println("Enter the song description :");
 		String description = add.nextLine();
-		int songId = 100 + (songs.size() + 1);
+		int songId = 200+(songs.size() + 1);
 		boolean added = songs.add(new MusicFiles(songId, title, artist, album, location, description));
 		if (added) {
 			System.out.println("You have successfully Added the Song !!");
