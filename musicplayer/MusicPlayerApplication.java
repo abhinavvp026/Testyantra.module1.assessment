@@ -11,7 +11,7 @@ public class MusicPlayerApplication {
 
 	static ArrayList<MusicFiles> songs = new ArrayList<MusicFiles>();
 	
-	//comparator for sorting the elements in order of song tiltle
+	//comparator for sorting the elements in order of song title
 	static Comparator<MusicFiles> comparator = Comparator.comparing(MusicFiles::getSongTitle);
 
 	// method to add a song to the arraylist
